@@ -46,6 +46,20 @@ The Python scripts are organized by task in the `scripts/` directory. See [scrip
 
 ## Power BI dashboard
 
+**[Download the Power BI dashboard (.pbix)](https://drive.google.com/file/d/15HWfy3aTZqxK-oQ7euWUkxLIZj1eceCa/view?usp=sharing)**
+
+The Power BI report is hosted on Google Drive because the `.pbix` file exceeds GitHub's regular file-size limit. The link is also recorded in [powerbi/dashboard file link](powerbi/dashboard%20file%20link).
+
+### Dashboard screenshots
+
+The following screenshots provide a preview of the report:
+
+![Power BI dashboard preview 1](powerbi/Screenshot%202026-11-09%20143050.png)
+
+![Power BI dashboard preview 2](powerbi/Screenshot%202026-11-09%20143115.png)
+
+![Power BI dashboard preview 3](powerbi/Screenshot%202026-11-09%20143139.png)
+
 The Power BI report contains three dashboard views represented by the supplied screenshots:
 
 ### E-commerce overview
