@@ -31,7 +31,7 @@ ecommerce-data-cleaning-eda/
 └── README.md
 ```
 
-The full raw and cleaned CSV files and the Power BI `.pbix` file are large (approximately 644 MB, 641 MB, and 221 MB respectively). They are not included in this initial GitHub upload. See [data/README.md](data/README.md) and [powerbi/README.md](powerbi/README.md) for the current availability notes.
+The full raw and cleaned CSV files and the Power BI `.pbix` file are hosted on Google Drive because they exceed GitHub's regular file-size limit. Use the download links in the [data folder](data/README.md) and [Power BI folder](powerbi/README.md).
 
 ## Python workflow
 
@@ -98,7 +98,7 @@ These are displayed values from the supplied dashboard screenshots; the underlyi
 
 ## Large data and report files
 
-GitHub blocks regular files larger than 100 MB. The full CSV datasets and Power BI report therefore need to be distributed through a suitable external storage location or Git LFS before they can be downloaded in full. No external download link is configured yet.
+GitHub blocks regular files larger than 100 MB. The raw dataset, cleaned dataset, and Power BI report are therefore hosted on Google Drive. Their download links are provided in the respective folder documentation.
 
 ## Limitations and interpretation
 
