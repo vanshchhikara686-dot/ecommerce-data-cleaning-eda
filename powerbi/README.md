@@ -2,7 +2,9 @@
 
 The project includes a Power BI report file locally named `ecommerce project.pbix` (approximately 221 MB) and three dashboard screenshots.
 
-The PBIX file is not included in this GitHub repository yet because it exceeds GitHub's 100 MB regular-file limit. No external download link has been configured yet.
+**[Download the Power BI dashboard (.pbix)](https://drive.google.com/file/d/15HWfy3aTZqxK-oQ7euWUkxLIZj1eceCa/view?usp=sharing)**
+
+The PBIX file is hosted on Google Drive because it exceeds GitHub's 100 MB regular-file limit.
 
 ## Dashboard views shown in the screenshots
 
@@ -12,4 +14,4 @@ The PBIX file is not included in this GitHub repository yet because it exceeds G
 
 Displayed dashboard figures include ₹149.96bn total revenue, 5M total orders, 1M delivered orders, and ₹120.88K average order value. These are reported from the supplied dashboard screenshots and have not been independently audited against the PBIX model.
 
-Screenshots are stored in `screenshots/`.
+Screenshots are stored directly in this `powerbi/` directory.
