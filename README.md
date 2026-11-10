@@ -6,11 +6,42 @@ A large-scale, synthetic e-commerce analytics project built with Python and Powe
 
 ## Project at a glance
 
-- **Records:** 5 million
-- **Period:** 2021–2025
-- **Primary tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Power BI
-- **Processing approach:** CSV chunk processing is used in several scripts, with a batch size of 100,000 rows.
-- **Analysis areas:** sales channels, customer segments, products, cities, categories, order status, payment methods, monthly revenue, and category discounts.
+| Project detail | Description |
+|---|---|
+| Dataset size | Approximately 5 million records |
+| Time period | 2021–2025 |
+| Data type | Synthetic e-commerce transaction data |
+| Main tools | Python, Pandas, NumPy, Matplotlib, Seaborn, Power BI |
+| Processing | CSV chunk processing is used in selected scripts (100,000 rows per batch) |
+| Analysis areas | Categories, products, cities, sales channels, customer segments, order status, payment methods, monthly revenue and discounts |
+
+## Skills demonstrated
+
+- **Python data analysis:** Python scripting, Pandas and NumPy for data manipulation and analysis.
+- **Data cleaning and preparation:** handling large CSV files, data type checks, transformation and preparation of analysis-ready data.
+- **Data profiling and validation:** inspecting dataset structure, checking data quality and validating cleaned outputs.
+- **Exploratory data analysis (EDA):** grouping, aggregation, trend analysis and comparative analysis across business dimensions.
+- **Large-file processing:** using chunk-based CSV processing in selected scripts to work with large datasets.
+- **Data visualization:** creating analytical charts with Matplotlib and Seaborn.
+- **Business intelligence:** building Power BI report views and presenting KPIs through dashboards.
+- **Business insight communication:** translating analytical summaries into findings about sales, customers, products and operations.
+
+## Key project findings
+
+The following findings are taken from the project's saved analytical CSV outputs and dashboard screenshots. Since the dataset is synthetic, these figures demonstrate the analysis workflow and should not be interpreted as actual company performance.
+
+| Analysis area | Finding | What it indicates |
+|---|---|---|
+| Dataset scale | Approximately **5 million records** across **2021–2025** | The workflow was designed to explore a large, multi-year dataset. |
+| Sales channels | Marketplace: **1,656,021** orders; Mobile App: **1,654,576**; Website: **1,654,449** | Order volumes are very evenly distributed across the three channels. |
+| Product categories | Beauty has the highest category revenue in the saved summary (**~100.16bn**); Fitness is lowest (**~99.91bn**). | Category revenue is closely balanced in this synthetic dataset. |
+| Order status | Returned **25.02%**; Processing **25.00%**; Cancelled **24.99%**; Delivered **24.99%** | Each order status accounts for approximately one-quarter of the records. |
+| Payment methods | Net Banking has the largest share (**20.03%**); Cash on Delivery the smallest (**19.98%**). | Payment-method usage is almost evenly distributed. |
+| Customer segments | New customers have the highest revenue in the segment summary (**~150.28bn**); Loyal customers have the lowest average order value (**~120.74K**). | Revenue and average order value are similar across the four customer segments. |
+| City performance | Mumbai leads the saved city revenue summary (**~49.60bn**), followed by Delhi (**~49.58bn**). | Revenue is closely grouped among the top cities. |
+| Monthly revenue | The highest month in the monthly summary is **August 2025 (~1,028.77 crore)**; the lowest is **February 2021 (~916.59 crore)**. | Monthly revenue varies over time, with a recurring lower level in February in the generated data. |
+
+> **Interpretation note:** The saved category, channel, segment and city summary files show aggregates that do not reconcile to the total revenue displayed in the Power BI screenshot. These outputs are therefore presented as separate exploratory summaries, not as a reconciled financial statement. Dashboard figures are displayed as shown in the report and have not been independently audited against the PBIX model.
 
 ## Repository contents
 
@@ -109,5 +140,5 @@ GitHub blocks regular files larger than 100 MB. The raw dataset, cleaned dataset
 
 ## Author
 
-**Vansh Chhikara**  
+**Vansh**  
 GitHub: [@vanshchhikara686-dot](https://github.com/vanshchhikara686-dot)
